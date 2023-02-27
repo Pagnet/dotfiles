@@ -6,6 +6,10 @@ require:
 Rails:
   Enabled: true
 
+Rails/DynamicFindBy:
+  Exclude:
+  - spec/layers/infra/repositories/*
+
 AllCops:
   TargetRubyVersion: 2.6.5
   TargetRailsVersion: 6.1
