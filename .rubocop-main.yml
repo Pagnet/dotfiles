@@ -7,8 +7,7 @@ Rails:
   Enabled: true
 
 Rails/DynamicFindBy:
-  Exclude:
-  - spec/layers/infra/repositories/*
+  Enabled: false
 
 AllCops:
   TargetRubyVersion: 2.6.5
