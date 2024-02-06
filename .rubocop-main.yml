@@ -24,6 +24,10 @@ AllCops:
     - 'karafka.rb'
     - 'vendor/**/*'
 
+Lint/ParenthesesAsGroupedExpression:
+  Exclude:
+    - '**/*.json.jbuilder'
+
 Layout/LineLength:
    Max: 140
 
