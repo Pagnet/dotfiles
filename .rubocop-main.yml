@@ -66,6 +66,9 @@ Style/FrozenStringLiteralComment:
 Style/OpenStructUse:
   Enabled: false
 
+Rails/ResponseParsedBody:
+  Enabled: false
+
 # Enable rules
 
 Lint/MissingSuper:
